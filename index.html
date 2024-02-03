@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./resources/favicon.jpeg" type="image/x-icon">
+    <title>Digital Dictionary - By Vansh Sikka</title>
+</head>
+
+<body>
+    <!-- MAIN Div -->
+    <div class="main"> 
+        <!--Container Div-->
+        <div class="container">
+            <!-- Image -->
+            <div class="image">
+                <img class="myImg" src="./resources/dictionaryImg.gif" alt="Image">
+            </div>
+            <!-- Search Box Container -->
+            <div class="box">
+                <div class="searchBox">
+                    <input type="text" placeholder="Type your word...." id="word" required/>
+                    <button id="searchBtn">SEARCH</button>
+                </div>
+                <!-- Div that shows result (Search Box Container Expands)-->
+                <div class="result" id="ans"></div>
+            </div>
+            <div id="credits">Made by: Vansh Sikka</div>
+        </div>
+        <!-- Adding audio -->
+        <audio id="audio"></audio>
+    </div>
+
+    <!-- JavaScript File-->
+    <script src="./script.js"></script>
+</body>
+</html>
+<!-- By Vansh Sikka -->
